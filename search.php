@@ -22,15 +22,11 @@ if($_SERVER['REQUEST_METHOD']=='POST'){
  				
  				while ($row = mysqli_fetch_assoc($result)) {
  					# code..
- 					$row['a_title']
-						$row['a_text']
-						$row['a_date']
-						$row['a_author']
-		          );
-
-		          
-						
-					
+ 						$row['a_title'];
+						$row['a_text'];
+						$row['a_date'];
+						$row['a_author'];
+		        	
  				}
  				echo json_encode($cat_arr);
 
